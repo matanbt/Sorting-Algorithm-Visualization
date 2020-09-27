@@ -1,4 +1,5 @@
-import {vars, Bar} from './index.js';
+import {vars} from './index.js';
+import {Bar} from './SortingPadModel.js';
 
 export const sortingAlgoVis = {
     bubble: async (sortpad) => {

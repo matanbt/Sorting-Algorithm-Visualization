@@ -1,4 +1,4 @@
-import {helpers,sortingAlgoVis} from "./sortingAlgo.js";
+import {helpers} from "./sortingAlgo.js";
 
 export const round = (num) => Math.round(num * 10) / 10
 
