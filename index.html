@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorting Algorithms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            background: #fcf8f8;
+        }
+        .row{
+            width:100%;
+            text-align: center;
+            background: #b7f1ff;
+            font-weight: bold;
+        }
+
+        .badge{
+            margin:0.1em;
+            padding: 0.5em;
+            font-size:0.9em;
+            font-weight: 650;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .badge-secondary{
+            opacity:0.75;
+        }
+
+        .disabled-link{
+            color:#6c757d!important;
+            cursor:default!important;
+        }
+    </style>
+</head>
+<body>
+<div class="row mb-2 p-2 mr-0 ml-0 align-items-center" style="">
+    <div class="col border-right">
+        <a id="gen_Arr" class="card-link" style="cursor: pointer;">Generate Random Array</a>
+    </div>
+
+    <div class="col border-right">
+        Visualization Speed
+            <input type="range" class="form-control-range" id="speed" width="100%">
+    </div>
+
+    <div class="col border-right">
+        Array Size
+        <input type="range" class="form-control-range" value='25' id="size" width="100%">
+    </div>
+
+    <div id="algorithms_div" class="col border-right">
+        <span style="display:block">Algorithm</span>
+        <a href="" class="badge badge-primary" >Bubble</a>
+        <a href="" class="badge badge-secondary" >Merge</a>
+        <a href="" class="badge badge-secondary">Insertion</a>
+        <a href="" class="badge badge-secondary">Quick</a>
+
+    </div>
+
+    <div class="col-1">
+        <button id="run" class="btn btn-lg btn-primary" style="font-weight: bold">Run!</button>
+
+    </div>
+</div>
+</body>
+<script type="module" src="index.js"></script>
+</html>
